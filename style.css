@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    padding: 15px 20px;
+    background: #0126DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header p{
+    margin-left: 10px;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.79px; /* 155.644% */
+}
+button{
+    padding: 8px 15px;
+    border-radius: 10px;
+border: 1px solid #FFF;
+background: rgba(255, 255, 255, 0.25);
+color: rgba(0, 0, 0, 0.35);
+text-align: center;
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.105px; /* 146.405% */
+}
+.header-btn{
+    padding: 8px 15px;
+    border-radius: 35px;
+border: 1px solid #FFF;
+background: #FFF;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.105px; /* 146.405% */
+}
+.header img{
+    margin-left: -20px;
+}
+.tarla{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    padding: 20px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 12.802px; /* 80.01% */
+text-transform: uppercase;
+}
+.hero h2{
+    padding: 50px 35px;
+    color: #000;
+font-family: Roboto;
+font-size: 76px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 118.421% */
+}
+.hero p{
+    margin-left: 25px;
+    color: #000;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.008px; /* 155.6% */
+}
+.hero button{
+    border-color: #000;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.002px; /* 154.553% */
+}
+.hero{
+    background-color: rgb(247, 186, 167);
+}
+.hero img{
+    padding: 50px 50px;
+    margin-top: -450px;
+    margin-left: 500px;
+}
+
+.works h2{
+    padding: 40px 20px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 60.01px; /* 139.559% */
+}
+.photo img{
+    margin-top: -10px;
+    margin-left: 85px;
+    width: 80px;
+    height: 80px;
+}
+.photo h2{
+    padding: 10px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 35.996px; /* 133.32% */
+text-transform: uppercase;
+}
+.photo p{
+    color: #000;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.008px; /* 155.6% */
+}
+.wrks{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ding h2{
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.996px; /* 133.32% */
+    text-transform: uppercase;  
+}
+.ding p{
+    color: #000;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.008px; /* 155.6% */ 
+}
+.ding img{
+    margin-top: -10px;
+    margin-left: 85px;
+    width: 80px;
+    height: 80px;
+}
+.cet h2{
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.996px; /* 133.32% */
+    text-transform: uppercase; 
+}
+.cet p{
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.008px; /* 155.6% */ 
+}
+.cet img{
+    margin-top: -10px;
+    margin-left: 85px;
+    width: 80px;
+    height: 80px;
+}
+.credit h2{
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.996px; /* 133.32% */
+    text-transform: uppercase; 
+}
+.credit p{
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.008px; /* 155.6% */ 
+}
+.credit img{
+    margin-top: -10px;
+    margin-left: 85px;
+    width: 80px;
+    height: 80px;
+}
+ .buttons{
+    margin-left: 500px;
+    margin-top: 40px;
+    padding: 15px 50px;
+    border-radius: 35px;
+    border: 1px solid #0126DE;
+    color: #0126DE;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.002px; /* 154.553% */
+   
+} 
+.shop{
+    margin-top: 40px;
+}
+.shop img{
+    margin-top: 50px;
+      width: 650px;
+}
+.shop h4{
+    margin-top: -380px;
+    margin-left: 700px;
+    color: #000;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 56.023px; /* 140.057% */
+}
+.shop button{
+    border-radius: 35px;
+    border: 1px solid #0126DE;
+    margin-left: 700px;
+    color: #0126DE;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.002px; /* 154.553% */
+}
+.danish h1{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 39px;
+font-style: normal;
+font-weight: 400;
+line-height: 56.023px; /* 143.649% */
+}
+.danish{
+    margin-top: 250px;
+}
+.kitt{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kitt h3{
+    padding: 10px 20px;
+    color: #000;
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 35.996px; /* 133.32% */
+text-transform: uppercase;
+}
+.kitt p{ 
+    padding: 10px 20px;
+    color: #000;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.997px; /* 139.986% */
+text-transform: uppercase;
+}
+.kitt button{
+    padding: 10px 25px;
+    border-radius: 35px;
+border: 1px solid #0126DE;
+    color: #0126DE;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.002px; /* 154.553% */
+}
+.chokolate{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.chokolate h3{
+    padding: 10px 20px;
+    color: #000;
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 35.996px; /* 133.32% */
+text-transform: uppercase; 
+}
+.chokolate p{
+    padding: 10px 20px;
+    color: #000;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.997px; /* 139.986% */
+text-transform: uppercase;  
+}
+.chokolate button{
+    padding: 10px 25px;
+    border-radius: 35px;
+border: 1px solid #0126DE;
+    color: #0126DE;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.002px; /* 154.553% */
+}
+.better{
+    background: #F5EDE7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.better h3{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 68.553px; /* 122.415% */
+}
+.better p{
+    color: #000;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.008px; /* 155.6% */
+}
+.think{
+    margin-left: 150px;
+    padding: 25px 15px;
+}
+
+.more{
+    background: #F5EDE7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like a{
+    color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.003px; /* 150.019% */
+text-transform: uppercase;
+}
+.like h5{
+    color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.005px; /* 153.865% */
+}
+.like button{
+    border-radius: 35px;
+border: 1px solid #000;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.002px; /* 154.553% */
+}
+.like{
+    margin-left: 200px;
+}
+.bakes{
+    background: #F5EDE7;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.legendary a{
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.003px; /* 150.019% */
+    text-transform: uppercase;
+}
+.legendary h5{
+    color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.005px; /* 153.865% */
+}
+.legendary button{
+    border-radius: 35px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.002px; /* 154.553% */
+}
+.legendary{
+    margin-left: 200px;
+}
+.tarlabakes h2{
+    padding: 45px 40px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 60.01px; /* 139.559% */
+}
+.join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.join img{
+    padding: 40px 10px;
+}
+.baket h1{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px; /* 144% */
+text-transform: uppercase;
+}
+.baket h5{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 31px;
+font-style: normal;
+font-weight: 400;
+line-height: 43.992px; /* 141.91% */
+}
+.baket button{
+    margin-top: 15px;
+    margin-left: 350px;
+    padding: 0px 255px;
+    border-radius: 10px;
+border: 1px solid #000;
+background: rgba(255, 255, 255, 0.25);
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px; /* 423.529% */
+text-transform: uppercase;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h6{
+    padding: 20px 0px;
+    color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36.018px; /* 163.72% */
+}
+.menu p{
+    padding: 10px 5px;
+    color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.003px; /* 150.019% */
+text-transform: uppercase;
+}
+.police{
+    margin-top: 150px;
+}
+.storyy h6{
+    margin-top: 10px;
+}
+.baket{
+    background: #F5EDE7;
+}
+.menu{
+    background: #F5EDE7;
+}
+.end {
+    padding: 0px 20px;
+      margin-left: -55px;
+}
+.iconss img{
+    width: 20px;
+}
+
+
